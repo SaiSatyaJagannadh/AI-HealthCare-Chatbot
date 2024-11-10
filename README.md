@@ -27,7 +27,7 @@ The **AI Healthcare Chatbot Website for Medical Queries** is a project designed 
    ```bash
    git clone https://github.com/yourusername/ai-healthcare-chatbot.git
    cd ai-healthcare-chatbot
-##Install dependencies: Run the following commands in Google Colab:
+## Install dependencies: Run the following commands in Google Colab:
 
 
 !pip install langchain langchain_community langchain_pinecone
@@ -36,15 +36,15 @@ The **AI Healthcare Chatbot Website for Medical Queries** is a project designed 
 !pip install sentence_transformers
 !pip install flask pyngrok
 
-##Set up API keys: Add your API keys in the code:
+## Set up API keys: Add your API keys in the code:
 
 os.environ["PINECONE_API_KEY"] = "YOUR_PINECONE_API_KEY"
 os.environ["OPENAI_API_KEY"] = "YOUR_CHATGPT_API_KEY"
 PLACES_API_KEY = "YOUR_GEOAPIFY_API_KEY"
 
-##Run the code: Execute the Python script in Google Colab. A local server link using Ngrok will be generated for accessing the chatbot.
+## Run the code: Execute the Python script in Google Colab. A local server link using Ngrok will be generated for accessing the chatbot.
 
-##Access the Flask app: Copy and paste the Ngrok URL in your browser to interact with the AI healthcare chatbot.
+## Access the Flask app: Copy and paste the Ngrok URL in your browser to interact with the AI healthcare chatbot.
 
 ## Future Enhancements
 Multi-language Support: Expand the chatbot for multi-language capabilities.
@@ -59,8 +59,8 @@ ChatGPT (OpenAI)
 Geoapify
 Ngrok Authtoken
 
-##License
+## License
 This project is licensed under the MIT License.
 
-##Contributing
+## Contributing
 Contributions are welcome! Please submit a pull request for any enhancements or bug fixes.
