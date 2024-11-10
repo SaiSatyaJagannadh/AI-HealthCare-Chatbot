@@ -46,7 +46,7 @@ PLACES_API_KEY = "YOUR_GEOAPIFY_API_KEY"
 
 ##Access the Flask app: Copy and paste the Ngrok URL in your browser to interact with the AI healthcare chatbot.
 
-##Future Enhancements
+## Future Enhancements
 Multi-language Support: Expand the chatbot for multi-language capabilities.
 Additional File Format Support: Add support for more document types (e.g., images with OCR).
 Enhanced Data Sources: Integrate certified healthcare databases for more robust responses.
