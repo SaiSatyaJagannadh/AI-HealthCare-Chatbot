@@ -1,15 +1,69 @@
 
 # AI-HealthCare-Chatbot
 
-This "AI Healthcare Chatbot Website for Medical Queries" project aims to improve healthcare accessibility by providing users with an intelligent, AI-driven chatbot for real-time medical consultations. The chatbot utilizes natural language processing (NLP) and machine learning models to address users' health-related queries, offer symptom assessments, and provide medical guidance. Additionally, the system enables users to upload documents such as PDFs and DOCX files for more personalized consultations. By integrating pre-trained ChatGPT models with Pinecone for efficient data retrieval, the chatbot ensures rapid, accurate, and contextually relevant responses, making it a valuable tool for both patients and healthcare providers. The system also incorporates location-based services using the Geoapify API, allowing users to find nearby hospitals based on location. The website's front end is built using customizable HTML templates and Flask, ensuring a responsive and user-friendly interface accessible across various devices. This project is designed to offer scalable, 24/7 healthcare support, reducing the burden on medical staff and helping users in underserved areas access timely and reliable health information. The AI chatbot system optimizes healthcare delivery and enhances patient outcomes by automating routine consultations and providing location-based assistance. 
+# AI Healthcare Chatbot Website for Medical Queries
 
+## Project Overview
+The **AI Healthcare Chatbot Website for Medical Queries** is a project designed to enhance healthcare accessibility by providing users with an AI-driven chatbot for real-time medical consultations. The chatbot leverages advanced NLP and machine learning models to respond to health-related queries, perform symptom assessments, and offer medical guidance. Users can upload PDFs and DOCX files for personalized consultations. The integration of pre-trained ChatGPT models with Pinecone ensures quick, contextually relevant responses. The Geoapify API provides location-based services to help users find nearby hospitals.
 
+## Key Features
+- **Real-time Medical Consultations**: AI-driven responses to user health queries.
+- **Document Upload**: PDF and DOCX support for personalized guidance.
+- **Fast Data Retrieval**: Powered by Pinecone for efficient data indexing and retrieval.
+- **Location Services**: Integrated Geoapify API for finding nearby hospitals.
+- **Responsive Frontend**: Built using Flask and customizable HTML templates.
+- **Scalable and 24/7 Support**: Ensures constant availability and reliable healthcare assistance.
 
+## Technologies Used
+- **Programming Languages**: Python
+- **Frameworks**: Flask, LangChain
+- **NLP Models**: Pre-trained ChatGPT (GPT-3.5)
+- **Vector Database**: Pinecone
+- **File Processing**: PyPDF2, python-docx
+- **Frontend**: HTML/CSS
+- **Location API**: Geoapify API
+- **Development Environment**: Google Colab
+- **Tunneling Service**: Ngrok
 
-API Keys Required are Pincone, Chatgpt, Geoapify, ngork Authtoken
+## Setup Instructions
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/ai-healthcare-chatbot.git
+   cd ai-healthcare-chatbot
+Install dependencies: Run the following commands in Google Colab:
 
+python
+Copy code
+!pip install langchain langchain_community langchain_pinecone
+!pip install langchain_openai
+!pip install python-docx pypdf PyPDF2
+!pip install sentence_transformers
+!pip install flask pyngrok
 
-After Setting API keys run the file in GoogleColab.
+Set up API keys: Add your API keys in the code:
 
-You will get a local server link where your flask app runs.
+os.environ["PINECONE_API_KEY"] = "YOUR_PINECONE_API_KEY"
+os.environ["OPENAI_API_KEY"] = "YOUR_CHATGPT_API_KEY"
+PLACES_API_KEY = "YOUR_GEOAPIFY_API_KEY"
 
+Run the code: Execute the Python script in Google Colab. A local server link using Ngrok will be generated for accessing the chatbot.
+
+Access the Flask app: Copy and paste the Ngrok URL in your browser to interact with the AI healthcare chatbot.
+
+Future Enhancements
+Multi-language Support: Expand the chatbot for multi-language capabilities.
+Additional File Format Support: Add support for more document types (e.g., images with OCR).
+Enhanced Data Sources: Integrate certified healthcare databases for more robust responses.
+User Authentication: Secure login and user management features.
+Appointment Scheduling: Implement functionality to book medical appointments.
+Analytics Dashboard: Real-time user interaction and chatbot performance metrics.
+API Keys Required
+Pinecone
+ChatGPT (OpenAI)
+Geoapify
+Ngrok Authtoken
+License
+This project is licensed under the MIT License.
+
+Contributing
+Contributions are welcome! Please submit a pull request for any enhancements or bug fixes.
