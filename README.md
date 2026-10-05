@@ -1,4 +1,22 @@
-# AI Healthcare Chatbot Website for Medical Queries
+<div align="center">
+
+# 🩺 AI Healthcare Chatbot — Website for Medical Queries
+
+### Ask health questions, upload reports (PDF/DOCX) for personalised answers, and find nearby hospitals — RAG with Pinecone + Flask.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Geoapify](https://img.shields.io/badge/Geoapify-2A9D8F?style=flat-square)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
+
+*➡️ See the faster successor: [AI-HealthCare-Chatbot-System_Cerebras](https://github.com/SaiSatyaJagannadh/AI-HealthCare-Chatbot-System_Cerebras)*
+
+</div>
+
+---
 
 ## Project Overview
 The **AI Healthcare Chatbot Website for Medical Queries** is a project designed to enhance healthcare accessibility by providing users with an AI-driven chatbot for real-time medical consultations. The chatbot leverages advanced NLP and machine learning models to respond to health-related queries, perform symptom assessments, and offer medical guidance. Users can upload PDFs and DOCX files for personalized consultations. The integration of pre-trained ChatGPT models with Pinecone ensures quick, contextually relevant responses. The Geoapify API provides location-based services to help users find nearby hospitals.
@@ -64,3 +82,11 @@ This project is licensed under the MIT License.
 
 ## Contributing
 Contributions are welcome! Please submit a pull request for any enhancements or bug fixes.
+
+---
+
+<div align="center">
+
+**Built by [Sai Satya Jagannadh Doddipatla (DJ)](https://saisatyajagannadh.github.io/PersonalPortfolio/)** · ⭐ Star the repo if it helped
+
+</div>
